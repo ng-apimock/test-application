@@ -1,0 +1,21 @@
+# src
+src
+
+# test
+**/*.spec.*
+
+# configs
+tsconfig.json
+tslint.json
+
+# idea
+.idea
+
+# ci
+.circleci
+
+# proxy
+proxy.config.json
+
+# angular
+angular.json
