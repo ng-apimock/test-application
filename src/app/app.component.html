@@ -2,7 +2,7 @@
 
 <h2>response</h2>
 <p>
-  data: <span class="data">{{response.body}}</span> <br/>
+  data: <span class="data">{{response.body | json}}</span> <br/>
   status: <span class="status">{{response.status | json}}</span><br/>
   done: <span class="done">{{done}}</span>
 </p>
