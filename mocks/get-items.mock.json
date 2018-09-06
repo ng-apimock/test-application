@@ -35,7 +35,7 @@
       }
     },
     "binary": {
-      "file": "mocks/test.pdf",
+      "file": "test.pdf",
       "headers": {
         "Content-type": "application/pdf",
         "filename": "test.pdf"
