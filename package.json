@@ -1,7 +1,7 @@
 {
   "name": "@ng-apimock/test-application",
   "description": "Test application for ng-apimock",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://github.com/ng-apimock/test-application#readme",
   "author": {
     "name": "Mischa Dasberg",
@@ -49,9 +49,9 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "6.1.7",
-    "@angular-devkit/build-angular": "0.7.5",
+    "@angular-devkit/build-angular": "0.8.1",
     "typescript": "2.9.2",
-    "@angular/cli": "6.1.5",
+    "@angular/cli": "6.2.1",
     "@angular/language-service": "6.1.7",
     "@types/node": "10.9.4",
     "codelyzer": "4.4.4",
