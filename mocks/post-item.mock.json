@@ -4,7 +4,7 @@
   "request": {
     "url": "/items",
     "method": "POST",
-    "payload": {
+    "body": {
       "item": "^[a-zA-Z]{3,10}$"
     }
   },
