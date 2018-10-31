@@ -1,0 +1,16 @@
+{
+  "name": "happy",
+  "mocks": {
+    "get items": {
+      "scenario": "crypto-exchanges",
+      "echo": true,
+      "delay": 3000
+    },
+    "post item": {
+      "scenario": "nok"
+    }
+  },
+  "variables": {
+    "coinName": "my coin"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "@ng-apimock/test-application",
   "description": "Test application for ng-apimock",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://github.com/ng-apimock/test-application#readme",
   "author": {
     "name": "Mischa Dasberg",
@@ -54,7 +54,7 @@
     "rxjs": "6.3.3",
     "ts-node": "7.0.1",
     "tslint": "5.11.0",
-    "typescript": "3.1.4",
+    "typescript": "3.1.5",
     "zone.js": "0.8.26"
   }
 }
