@@ -1,7 +1,7 @@
 {
   "name": "@ng-apimock/test-application",
   "description": "Test application for ng-apimock",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "homepage": "https://github.com/ng-apimock/test-application#readme",
   "author": {
     "name": "Mischa Dasberg",
@@ -35,9 +35,9 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.10.4",
+    "@angular-devkit/build-angular": "0.10.5",
     "@angular/animations": "7.0.3",
-    "@angular/cli": "7.0.4",
+    "@angular/cli": "7.0.5",
     "@angular/common": "7.0.3",
     "@angular/compiler": "7.0.3",
     "@angular/compiler-cli": "7.0.3",
@@ -48,7 +48,7 @@
     "@angular/platform-browser": "7.0.3",
     "@angular/platform-browser-dynamic": "7.0.3",
     "@angular/router": "7.0.3",
-    "@types/node": "10.12.3",
+    "@types/node": "10.12.7",
     "codelyzer": "4.5.0",
     "core-js": "2.5.7",
     "rxjs": "6.3.3",
