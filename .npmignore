@@ -10,6 +10,7 @@ tslint.json
 
 # idea
 .idea
+*.iml
 
 # ci
 .circleci
