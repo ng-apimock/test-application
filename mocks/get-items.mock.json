@@ -1,46 +1,17 @@
 {
-    "name": "get items",
+    "name": "get repositories",
     "isArray": true,
     "request": {
-        "url": "/items",
+        "url": "/orgs/ng-apimock/repos",
         "method": "GET"
     },
     "responses": {
-        "crypto-currencies": {
-            "status": 200,
-            "data": [
-                "Bitcoin",
-                "Bitcoin Cash",
-                "Etherium",
-                "Litecoin",
-                "Some%%coinName%%Coin",
-                "%%x%%"
-            ],
+        "success": {
+            "file": "repos.success.json",
             "headers": {
-                "Content-type": "application/json",
-                "custom": "custom"
+                "Content-type": "application/json"
             },
-            "statusText": "text",
             "default": true
-        },
-        "crypto-exchanges": {
-            "status": 200,
-            "data": [
-                "Coinbase",
-                "Binance",
-                "Hitbtc"
-            ],
-            "headers": {
-                "Content-type": "application/json",
-                "custom": "custom"
-            }
-        },
-        "binary": {
-            "file": "test.pdf",
-            "headers": {
-                "Content-type": "application/pdf",
-                "filename": "test.pdf"
-            }
         },
         "server-error": {
             "default": false,
