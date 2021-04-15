@@ -1,0 +1,22 @@
+{
+    "name": "readme",
+    "isArray": true,
+    "request": {
+        "url": "ng-apimock\\/.*\\/.*\\/README.md",
+        "method": "GET"
+    },
+    "responses": {
+        "ok": {
+            "file": "README.md",
+            "headers": {
+                "Content-type": "text/markdown",
+                "filename": "README.md"
+            },
+            "default": true
+        },
+        "server-error": {
+            "default": false,
+            "status": 500
+        }
+    }
+}

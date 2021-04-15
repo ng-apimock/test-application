@@ -3,12 +3,19 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "test-application": {
+    "ngApimock/test-application": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
-      "projectType": "application",
-      "prefix": "app",
-      "schematics": {},
+      "prefix": "apimock",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -17,13 +24,14 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
-            "tsConfig": "tsconfig.json",
+            "tsConfig": "tsconfig.app.json",
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -38,23 +46,33 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ]
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "test-application:build"
+            "browserTarget": "ngApimock/test-application:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "test-application:build:production"
+              "browserTarget": "ngApimock/test-application:build:production"
             }
           }
         },
@@ -62,7 +80,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "tsconfig.json"
+              "tsconfig.app.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -72,10 +90,5 @@
       }
     }
   },
-  "defaultProject": "test-application",
-  "cli": {
-    "warnings": {
-      "typescriptMismatch": false
-    }
-  }
+  "defaultProject": "ngApimock/test-application"
 }

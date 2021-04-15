@@ -1,7 +1,15 @@
 {
-  "/items/*": {
-    "target": "http://localhost:9900",
+
+  "/orgs/ng-apimock/repos": {
+    "target": "http://localhost:9999",
+    "secure": false,
+    "logLevel": "debug"
+  },
+
+  "/ng-apimock/*": {
+    "target": "http://localhost:9999",
     "secure": false,
     "logLevel": "debug"
   }
 }
+
