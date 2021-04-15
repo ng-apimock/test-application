@@ -11,11 +11,11 @@ import { ErrorService } from '../../error/error.service';
   styleUrls: ['./repos.component.scss']
 })
 export class ReposComponent implements OnInit, AfterViewInit {
+  @ViewChild(MatSort) sort: MatSort;
+
   dataSource: MatTableDataSource<Repo>;
   displayedColumns = ['name', 'html_url', 'description', 'license', 'actions'];
   done: boolean;
-
-  @ViewChild(MatSort) sort: MatSort;
 
   constructor(private errorService: ErrorService,
               private reposService: ReposService) {

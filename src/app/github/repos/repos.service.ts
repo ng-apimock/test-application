@@ -21,6 +21,7 @@ export class ReposService {
       name: repo.name
     }, {
       headers: new HttpHeaders({
+        // eslint-disable-next-line @typescript-eslint/naming-convention
         'Content-Type': 'text/plain'
       })
     });
