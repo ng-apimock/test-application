@@ -1,15 +1,16 @@
 {
-    "name": "get repositories",
+    "name": "readme",
     "isArray": true,
     "request": {
-        "url": "/orgs/ng-apimock/repos",
+        "url": "ng-apimock\\/.*\\/.*\\/README.md",
         "method": "GET"
     },
     "responses": {
-        "success": {
-            "file": "repos.success.json",
+        "ok": {
+            "file": "README.md",
             "headers": {
-                "Content-type": "application/json"
+                "Content-type": "text/markdown",
+                "filename": "README.md"
             },
             "default": true
         },

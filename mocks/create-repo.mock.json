@@ -1,0 +1,34 @@
+{
+    "name": "create repository",
+    "request": {
+        "url": "/orgs/ng-apimock/repos",
+        "method": "POST"
+    },
+    "responses": {
+        "ok": {
+            "status": 200,
+            "then": {
+                "mocks": [
+                    {
+                        "name": "get repositories",
+                        "scenario": "ok-added"
+                    }
+                ]
+            },
+            "default": true
+        },
+        "conflict": {
+            "status": 409
+        },
+        "server-error": {
+            "status": 500
+        },
+        "unauthorized": {
+            "status": 401,
+            "data": {
+                "message": "Requires authentication",
+                "documentation_url": "https://docs.github.com/rest/reference/repos#create-an-organization-repository"
+            }
+        }
+    }
+}

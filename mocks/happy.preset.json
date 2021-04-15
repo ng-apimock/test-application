@@ -1,16 +1,16 @@
 {
   "name": "happy",
   "mocks": {
-    "get items": {
-      "scenario": "crypto-exchanges",
+    "get repositories": {
+      "scenario": "dummy",
       "echo": true,
       "delay": 3000
     },
-    "post item": {
-      "scenario": "nok"
+    "create repository": {
+      "scenario": "unauthorized"
     }
   },
   "variables": {
-    "coinName": "my coin"
+    "dummy-description": "dummy description"
   }
 }

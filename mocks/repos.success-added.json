@@ -1,0 +1,46 @@
+[
+  {
+    "name": "core",
+    "full_name": "ng-apimock/core",
+    "html_url": "https://github.com/ng-apimock/core",
+    "description": "ng-apimock core module",
+    "license": {
+      "name": "MIT License"
+    },
+    "default_branch": "master"
+  },
+  {
+    "name": "dev-interface",
+    "full_name": "ng-apimock/dev-interface",
+    "html_url": "https://github.com/ng-apimock/dev-interface",
+    "description": "development interface for @ng-apimock/core",
+    "license": {
+      "name": "MIT License"
+    },
+    "default_branch": "master"
+  },
+  {
+    "name": "cypress-plugin",
+    "full_name": "ng-apimock/cypress-plugin",
+    "html_url": "https://github.com/ng-apimock/cypress-plugin",
+    "description": "The cypress plugin for ng-apimock. ",
+    "license": {
+      "name": "MIT License"
+    },
+    "default_branch": "master"
+  },
+  {
+    "name": "some-awesome-plugin",
+    "full_name": "ng-apimock/some-awesome-plugin",
+    "html_url": "https://github.com/ng-apimock/some-awesome-plugin",
+    "description": "Some awesome plugin",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "default_branch": "master"
+  }
+]

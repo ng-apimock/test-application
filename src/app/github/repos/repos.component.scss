@@ -1,0 +1,13 @@
+h1,h2 {
+  text-align: center;
+}
+.repo-actions {
+  display: flex;
+    justify-content: flex-end;
+  padding: 30px;
+}
+
+.container > * {
+  width: 90%;
+  margin: auto;
+}

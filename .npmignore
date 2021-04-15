@@ -2,10 +2,10 @@
 src
 
 # test
-**/*.spec.*
-
+test
 # configs
 tsconfig.json
+tsconfig.app.json
 tslint.json
 
 # idea

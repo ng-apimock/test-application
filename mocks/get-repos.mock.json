@@ -1,0 +1,38 @@
+{
+    "name": "get repositories",
+    "isArray": true,
+    "request": {
+        "url": "/orgs/ng-apimock/repos",
+        "method": "GET"
+    },
+    "responses": {
+        "dummy": {
+            "data": [
+                {
+                    "name": "dummy",
+                    "full_name": "ng-apimock/dummy",
+                    "html_url": "https://github.com/ng-apimock/dummy",
+                    "description": "%%dummy-description%%",
+                    "default_branch": "master"
+                }
+            ]
+        },
+        "ok": {
+            "file": "repos.success.json",
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "default": true
+        },
+        "ok-added": {
+            "file": "repos.success-added.json",
+            "headers": {
+                "Content-Type": "application/json"
+            }
+        },
+        "server-error": {
+            "default": false,
+            "status": 500
+        }
+    }
+}
