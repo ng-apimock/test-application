@@ -10,7 +10,7 @@ export class ErrorService {
   constructor(private dialog: MatDialog) {
   }
 
-  // tslint:disable-next-line:ban-types
+  // eslint-disable-next-line @typescript-eslint/ban-types
   onError(error: Error, callback: Function): void {
     const dialogRef = this.dialog.open(ErrorDialogComponent, {
       data: {
