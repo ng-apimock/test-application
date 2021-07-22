@@ -10,19 +10,19 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { ErrorDialogModule } from '../../../error/error-dialog.module';
 
 @NgModule({
-  declarations: [CreateRepoComponent],
-  exports: [CreateRepoComponent],
-  imports: [
-    CommonModule,
-    ErrorDialogModule,
-    HttpClientModule,
-    MatDialogModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatButtonModule,
-    ReactiveFormsModule
-  ],
-  providers: []
+    declarations: [CreateRepoComponent],
+    exports: [CreateRepoComponent],
+    imports: [
+        CommonModule,
+        ErrorDialogModule,
+        HttpClientModule,
+        MatDialogModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatButtonModule,
+        ReactiveFormsModule
+    ],
+    providers: []
 })
 export class CreateRepoModule {
 

@@ -10,20 +10,20 @@ import { CreateRepoModule } from './github/repos/create/create.module';
 import { ErrorDialogModule } from './error/error-dialog.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    AppRoutingModule,
-    BrowserModule,
-    CreateRepoModule,
-    ErrorDialogModule,
-    HeaderModule,
-    NoopAnimationsModule,
-    ReposModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent
+    ],
+    imports: [
+        AppRoutingModule,
+        BrowserModule,
+        CreateRepoModule,
+        ErrorDialogModule,
+        HeaderModule,
+        NoopAnimationsModule,
+        ReposModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }

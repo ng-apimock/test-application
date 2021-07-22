@@ -6,18 +6,18 @@ import { RouterModule } from '@angular/router';
 
 
 @NgModule({
-  declarations: [
-    HeaderComponent
-  ],
-  exports: [
-    HeaderComponent
-  ],
-  imports: [
-    CommonModule,
-    MatToolbarModule,
-    RouterModule
-  ],
-  providers: []
+    declarations: [
+        HeaderComponent
+    ],
+    exports: [
+        HeaderComponent
+    ],
+    imports: [
+        CommonModule,
+        MatToolbarModule,
+        RouterModule
+    ],
+    providers: []
 })
 export class HeaderModule {
 }
