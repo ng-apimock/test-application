@@ -9,18 +9,18 @@ import { RouterModule } from '@angular/router';
 import { ErrorDialogModule } from '../../error/error-dialog.module';
 
 @NgModule({
-  declarations: [ReposComponent],
-  exports: [ReposComponent],
-  imports: [
-    CommonModule,
-    ErrorDialogModule,
-    HttpClientModule,
-    MatSortModule,
-    MatTableModule,
-    MatButtonModule,
-    RouterModule
-  ],
-  providers: []
+    declarations: [ReposComponent],
+    exports: [ReposComponent],
+    imports: [
+        CommonModule,
+        ErrorDialogModule,
+        HttpClientModule,
+        MatSortModule,
+        MatTableModule,
+        MatButtonModule,
+        RouterModule
+    ],
+    providers: []
 })
 export class ReposModule {
 

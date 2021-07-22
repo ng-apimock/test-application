@@ -1,13 +1,14 @@
-h1,h2 {
+h1, h2 {
   text-align: center;
 }
 
 .mat-column-name, .mat-column-license, .mat-column-actions {
   flex: 0 0 10%;
 }
+
 .repo-actions {
   display: flex;
-    justify-content: flex-end;
+  justify-content: flex-end;
   padding: 30px;
 }
 

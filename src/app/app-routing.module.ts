@@ -4,14 +4,16 @@ import { ReposComponent } from './github/repos/repos.component';
 import { CreateRepoComponent } from './github/repos/create/create.component';
 
 const routes: Routes = [
-  {path: '', component: ReposComponent},
-  {path: 'repos',
-    component: CreateRepoComponent},
+    { path: '', component: ReposComponent },
+    {
+        path: 'repos',
+        component: CreateRepoComponent
+    },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true } )],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes, { useHash: true })],
+    exports: [RouterModule]
 })
 export class AppRoutingModule {
 }

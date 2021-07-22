@@ -6,20 +6,20 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { ErrorService } from './error.service';
 
 @NgModule({
-  declarations: [
-    ErrorDialogComponent
-  ],
-  exports: [
-    ErrorDialogComponent
-  ],
-  imports: [
-    CommonModule,
-    MatDialogModule,
-    RouterModule
-  ],
-  providers: [
-    ErrorService
-  ]
+    declarations: [
+        ErrorDialogComponent
+    ],
+    exports: [
+        ErrorDialogComponent
+    ],
+    imports: [
+        CommonModule,
+        MatDialogModule,
+        RouterModule
+    ],
+    providers: [
+        ErrorService
+    ]
 })
 export class ErrorDialogModule {
 }

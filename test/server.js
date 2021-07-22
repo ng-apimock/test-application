@@ -5,10 +5,10 @@ const connect = require('connect');
 const devInterface = require('@ng-apimock/dev-interface');
 const path = require('path');
 const serveStatic = require('serve-static');
-
 const app = connect();
+const mocksDirectory = path.join(process.cwd(), 'mocks');
 
-apimock.processor.process({ src: path.join(process.cwd(), 'mocks') });
+apimock.processor.process({ src: mocksDirectory });
 
 app.use(apimock.middleware);
 
@@ -27,4 +27,7 @@ app.use('/ng-apimock', createProxyMiddleware({
 }));
 
 app.listen(9999);
-console.log('@ng-apimock/test-application is running on port 9999');
+console.log('Server is running on port 9999');
+console.log('@ng-apimock/test-application is accessible under http://localhost:9999/');
+console.log('@ng-apimock/dev-interface is accessible under http://localhost:9999/dev-interface');
+

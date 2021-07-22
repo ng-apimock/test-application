@@ -3,10 +3,17 @@ src
 
 # test
 test
+**/*.spec.*
+
 # configs
 tsconfig.json
-tsconfig.app.json
 tslint.json
+angular.json
+commitlint.config.js
+jest.config.js
+proxy.config.json
+sonar-project.properties
+tsconfig.*.json
 
 # idea
 .idea
