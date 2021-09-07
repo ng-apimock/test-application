@@ -1520,10 +1520,10 @@
     merge-source-map "^1.1.0"
     schema-utils "^2.7.0"
 
-"@ng-apimock/core@3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@ng-apimock/core/-/core-3.0.3.tgz#cc3837d6355fa40dcd0a5245105f210eedb01eb2"
-  integrity sha512-5WS/iRQE6vDic2EH1sue7msGnPTaME9Mx1HmF2Ot+q7VIdEGit8nkF2WkbE10cpYSZq/JXtRo1jt4PSi2SftCA==
+"@ng-apimock/core@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@ng-apimock/core/-/core-3.1.0.tgz#8dde80c2a49c0eb52d5033e8e86903a4df2268ef"
+  integrity sha512-/UnomriiLrQjs7xJ4DVnn3U17ocENEOUJn+kjMMM20jbqSp7NKUg9geuF2NwufojBvtdiCdfvYfVr7r9ZNgiUA==
   dependencies:
     body-parser "1.19.0"
     chokidar "3.5.2"
