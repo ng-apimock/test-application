@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.5.0](https://github.com/ng-apimock/test-application/compare/v3.4.0...v3.5.0) (2022-12-08)
+
+
+### Features
+
+* 🎸 update angular dependencies ([628f5c2](https://github.com/ng-apimock/test-application/commit/628f5c2a50d661b0305907205687b50a26a98438))
+* 🎸 update dependencies ([b7f05f1](https://github.com/ng-apimock/test-application/commit/b7f05f133658212036cea4b5f7d50d9ace05223c))
+
 # [3.4.0](https://github.com/ng-apimock/test-application/compare/v3.3.0...v3.4.0) (2022-07-14)
 
 
