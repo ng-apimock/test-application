@@ -1,13 +1,13 @@
 {
 
   "/orgs/ng-apimock/repos": {
-    "target": "http://localhost:9999",
+    "target": "http://localhost:2222",
     "secure": false,
     "logLevel": "debug"
   },
 
   "/ng-apimock/*": {
-    "target": "http://localhost:9999",
+    "target": "http://localhost:2222",
     "secure": false,
     "logLevel": "debug"
   }

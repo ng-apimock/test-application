@@ -6,6 +6,12 @@ h1, h2 {
   flex: 0 0 10%;
 }
 
+.mat-mdc-header-cell {
+  color: #0000008a;
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .repo-actions {
   display: flex;
   justify-content: flex-end;

@@ -3,15 +3,18 @@
 
 <form class="container" (ngSubmit)="onSubmitForm()" [formGroup]="repoForm">
     <mat-form-field>
-        <input [disabled]="true" matInput formControlName="owner" placeholder="Org" required>
+        <mat-label>Org</mat-label>
+        <input [disabled]="true" matInput formControlName="owner" required>
     </mat-form-field>
 
     <mat-form-field>
-        <input matInput formControlName="name" placeholder="Name" required>
+        <mat-label>Name</mat-label>
+        <input matInput formControlName="name" required>
     </mat-form-field>
 
     <mat-form-field>
-        <input matInput formControlName="description" placeholder="Description" required>
+        <mat-label>Description</mat-label>
+        <input matInput formControlName="description" required>
     </mat-form-field>
 
     <div class="actions">
