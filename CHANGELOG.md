@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.5.2](https://github.com/ng-apimock/test-application/compare/v3.5.1...v3.5.2) (2023-01-14)
+
+
+### Bug Fixes
+
+* 🐛 update dependencies ([7b532ed](https://github.com/ng-apimock/test-application/commit/7b532ed7050757065d571a915ec169273380cafe))
+
 ## [3.5.1](https://github.com/ng-apimock/test-application/compare/v3.5.0...v3.5.1) (2022-12-09)
 
 
