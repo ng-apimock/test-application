@@ -2570,10 +2570,10 @@
     reflect-metadata "0.1.13"
     uuid "9.0.0"
 
-"@ng-apimock/dev-interface@3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@ng-apimock/dev-interface/-/dev-interface-3.2.0.tgz#29020123628fcbee650a7074ac06addcfc910f4c"
-  integrity sha512-suTRXdvjfZAmiEOLMaRvW/u1KT22IdueVpHHUTLhgF0K7PTODlbJbyZ3vAEHCptz/j5bOwNpsCsxGFpkGfTeig==
+"@ng-apimock/dev-interface@3.2.1":
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@ng-apimock/dev-interface/-/dev-interface-3.2.1.tgz#c0f13e2149de7e5e10cf067c85a1739a7ae1269f"
+  integrity sha512-nHfzXRFL5+4JmuRDP/Vi21HmTu/A5ZZ43T8RK0TjmF9fWtd7qCeefBA3TkTOE+aD5oJDzYrdJii+Yd3bEK40Tg==
 
 "@ngtools/webpack@15.1.1":
   version "15.1.1"
